@@ -1,0 +1,44 @@
+/* styles.css */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .font-monospace {
+  color: #fff;
+}
+
+.dark-mode textarea::placeholder {
+  color: #bbb;
+}
+
+.light-mode textarea::placeholder {
+  color: #888;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
